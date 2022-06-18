@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    width: 100%;
+    grid-template-columns:
+    repeat(12, 1fr);
+}
+
+.column {
+    display: flex; 
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    border: 1px solid black;
+    background-image:rgba(232, 102, 236, 0.3);
+}
+
+.grid-item p {
+    display:flex;
+    min-width: 300px;
+}
